@@ -17,16 +17,16 @@ const HomePage = () => {
         </div>
       </div>
       <div className="scatter">
-        <p>Plumbers near me</p>
-        <p>Restaurents near me</p>
-        <p>Hotels near me</p>
-        <p>Electrician near me</p>
-        <p>Hospitals near me</p>
-        <p>Carpenters near me</p>
-        <p>Mechanics near me</p>
-        <p>Painters near me</p>
-        <p>Pharmacy near me</p>
-        <p>Engineers near me</p>
+        <p className="scatter1">Plumbers near me</p>
+        <p className="scatter2">Restaurents near me</p>
+        <p className="scatter3">Hotels near me</p>
+        <p className="scatter4">Electrician near me</p>
+        <p className="scatter5">Hospitals near me</p>
+        <p className="scatter6">Carpenters near me</p>
+        <p className="scatter7">Mechanics near me</p>
+        <p className="scatter8">Painters near me</p>
+        <p className="scatter9">Pharmacy near me</p>
+        <p className="scatter10">Engineers near me</p>
       </div>
     </div>
   );
