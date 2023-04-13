@@ -1,0 +1,82 @@
+.homePage {
+  height: 90vh;
+  position: relative;
+  margin: auto;
+}
+
+.homePage .scatter {
+  height: fit-content;
+  position: relative;
+}
+
+.homePage .scatter p {
+  position: absolute;
+  padding: 8px;
+  font-size: 15px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.homePage .header {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid red;
+}
+
+.homePage .header > * {
+  margin-right: 20px;
+}
+
+.homePage .header button {
+  height: 25px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.homePage .hero {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homePage .hero p {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.homePage .hero .main {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 5px 0px 5px 0px;
+  border-radius: 40px;
+  /* box-shadow: 1px 1px 5px 0px rgba(11, 11, 11, 0.75); */
+}
+
+.homePage .hero .main input {
+  width: 410px;
+  margin-left: 15px;
+  padding: 5px 10px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+.homePage .hero .main .icon {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 50%;
+  fill: white;
+}
